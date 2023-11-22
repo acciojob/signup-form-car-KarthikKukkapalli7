@@ -5,24 +5,24 @@
 </head>
 <body>
 <h1>Signup Form</h1>
-<form method="post">
+<form method="post" >
 <label for="name">Name</label>
 <input type="text" id="name" placeholder="Name" required>
 <br>
 <label for="email">Email</label>
-<input type="email" id="email" required>
+<input type="email" id="email" placeholder="Email" required>
 <br>
 <label for="gender_m" >male</label>
-<input type="radio" id="gender_m" name="Gender" required>
+<input type="radio" id="gender_m" name="gender" required>
 <br>
 <label for="gender_f">female</label>
-<input type="radio" id="gender_f" name="Gender" required>
+<input type="radio" id="gender_f" name="gender" required>
 <br>
-<label for="cars">Car Brands</label>
-<section id="cars" aria-placeholder="--Please choose an option--" aria-required="true">
-<option>car 1</option>
-<option>car 2</option>
-<option>car 3</option>
+<label for="cars">	--Please choose an option--</label>
+<section  id="cars">
+<option >car 1</option>
+<option >car 2</option>
+<option >car 3</option>
 </section>
 <br>
 <label for="age">Age</label>
@@ -40,6 +40,7 @@
 <label for="tos">I agree to the TOS</label>
 <input type="checkbox" id="tos" required>
 <br>
+<input type="submit">
 </form>
 </body>
 </html>
